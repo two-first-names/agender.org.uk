@@ -1,0 +1,55 @@
+---
+layout: page
+title: Join Us
+eleventyNavigation:
+  key: Join Us
+  order: 5
+---
+Membership is free and open to all Civil Service staff and contractors. You can join as:
+- a full member
+- an ally or friend
+
+Full members are people who identify as intersex or trans, including transgender or transsexual men and women, non-binary and genderfluid people, genderqueer, gender variant, cross-dresser, genderless, agender, non-gendered, third gender, bigender, trans men and trans women.
+
+Allies are friends, relatives and colleagues who support our aims and objectives. Our allies stand up for trans and intersex people within the workplace, support our full members and spread the word about a:gender. Together we can remove barriers and become agents for positive change.
+
+​Note that some of the events we organise may be for full members only. [Read more about the ways we support our members](/for-our-members).
+
+By signing up you consent to our [Privacy Notice](/privacy-notice), to abide by our [member guidelines](/join-us/member-guidelines), and to being added to our membership emailing list. 
+
+Please provide your Civil Service work email address, we cannot accept personal email addresses for membership. 
+
+You can withdraw your membership at any time by [contacting a:gender](mailto:membership@agender.gov.uk).
+
+## Membership Form
+
+<form>
+  <label for="first-name">First Name</label>
+  <input id="first-name" name="first-name" type="text" required />
+
+  <label for="last-name">Last Name</label>
+  <input id="last-name" name="last-name" type="text" required />
+
+  <label for="email">Work Email</label>
+  <input id="email" name="email" type="text" required autocomplete="email" />
+
+  <label for="organisation">Organisation</label>
+  <input id="organisation" name="organisation" type="text" required />
+
+  <label for="location">Location</label>
+  <input id="location" name="location" type="text" required />
+
+  <label for="membership-type">Membership Type</label>
+  <select id="membership-type" name="membership-type" required>
+    <option value="ally">Ally/Friend</option>
+    <option value="full">Full Membership</option>
+  </select>
+
+  *Full Member*: Any staff member who is trans or intersex, where trans and intersex are defined in the widest sense.
+
+  *Ally/Friend*: Any staff member who wishes to support or help deliver the aims and objectives of a:gender.
+
+  By clicking 'Submit' you consent to our [Privacy Notice](/privacy-notice) and receiving  email updates from a:gender.
+  
+  <button type="submit">Submit</submit>
+</form>
