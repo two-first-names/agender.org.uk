@@ -6,6 +6,7 @@ eleventyNavigation:
   order: 5
 ---
 Membership is free and open to all Civil Service staff and contractors. You can join as:
+
 - a full member
 - an ally or friend
 
@@ -15,32 +16,32 @@ Allies are friends, relatives and colleagues who support our aims and objectives
 
 ​Note that some of the events we organise may be for full members only. [Read more about the ways we support our members](/for-our-members).
 
-By signing up you consent to our [Privacy Notice](/privacy-notice), to abide by our [member guidelines](/join-us/member-guidelines), and to being added to our membership emailing list. 
+By signing up you consent to our [Privacy Notice](/privacy-notice), to abide by our [member guidelines](/join-us/member-guidelines), and to being added to our membership emailing list.
 
-Please provide your Civil Service work email address, we cannot accept personal email addresses for membership. 
+Please provide your Civil Service work email address, we cannot accept personal email addresses for membership.
 
 You can withdraw your membership at any time by [contacting a:gender](mailto:membership@agender.gov.uk).
 
 ## Membership Form
 
 <form>
-  <label for="first-name">First Name</label>
-  <input id="first-name" name="first-name" type="text" required />
+  <label class="input-label label-sm" for="first-name">First Name</label>
+  <input class="input" id="first-name" name="first-name" type="text" />
 
-  <label for="last-name">Last Name</label>
-  <input id="last-name" name="last-name" type="text" required />
+  <label class="input-label label-sm" for="last-name">Last Name</label>
+  <input class="input" id="last-name" name="last-name" type="text" />
 
-  <label for="email">Work Email</label>
-  <input id="email" name="email" type="text" required autocomplete="email" />
+  <label class="input-label label-sm" for="email">Work Email</label>
+  <input class="input" id="email" name="email" type="text" autocomplete="email" />
 
-  <label for="organisation">Organisation</label>
-  <input id="organisation" name="organisation" type="text" required />
+  <label class="input-label label-sm" for="organisation">Organisation</label>
+  <input class="input" id="organisation" name="organisation" type="text" />
 
-  <label for="location">Location</label>
-  <input id="location" name="location" type="text" required />
+  <label class="input-label label-sm" for="location">Location</label>
+  <input class="input" id="location" name="location" type="text" />
 
-  <label for="membership-type">Membership Type</label>
-  <select id="membership-type" name="membership-type" required>
+  <label class="input-label label-sm" for="membership-type">Membership Type</label>
+  <select id="membership-type" name="membership-type">
     <option value="ally">Ally/Friend</option>
     <option value="full">Full Membership</option>
   </select>
@@ -51,5 +52,5 @@ You can withdraw your membership at any time by [contacting a:gender](mailto:mem
 
   By clicking 'Submit' you consent to our [Privacy Notice](/privacy-notice) and receiving  email updates from a:gender.
   
-  <button type="submit">Submit</submit>
+  <input class="button button--primary" type="submit" value="Submit" />
 </form>

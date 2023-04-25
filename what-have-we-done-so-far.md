@@ -2,7 +2,7 @@
 layout: page
 title: What have we done so far?
 eleventyNavigation:
-  key: What have we done so far?
+  key: Our Accomplishments
   order: 2
 ---
 In 2022, a:gender has gone from success to success. We have:

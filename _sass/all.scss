@@ -2,12 +2,30 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+  "helpers/reset",
   "helpers/media-queries",
 	"helpers/grid",
 	"helpers/clearfix",
   "helpers/spacing",
+  "helpers/typography",
+  "helpers/links",
+  "helpers/colors",
 
   "settings/variables",
 
-	"layouts/grid"
+  "typography/headings",
+  "typography/paragraph",
+  "typography/lists",
+
+  "components/button.scss",
+  "components/radios",
+  "components/text-input",
+  "components/label",
+
+  "layouts/template",
+	"layouts/grid",
+  "layouts/header",
+  "layouts/footer",
+  "layouts/loop",
+  "layouts/page"
 ;

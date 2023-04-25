@@ -1,3 +1,13 @@
+---js
+{ 
+  navigationOptions: {
+    listClass: "header--navigation",
+    listItemClass: "header--navigation-item",
+    activeListItemClass: "header--navigation-item--active",
+    anchorClass: "header--link"
+  }
+}
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,10 +17,93 @@
     <link rel="stylesheet" href="/css/all.css">
   </head>
   <body>
+    <header class="header">
+      <div class="header--container width-container">
+        <div class="header--logo">
+          <a class="header--logotype--link" href="/">
+            <span class="header--logotype--text">a:gender</span>
+          </a>
+        </div>
+        <div class="header--content">
+          <nav>
+            {% set navPages = collections.all | eleventyNavigation %}
+            <ul class="header--navigation">
+            {%- for entry in navPages %}
+              <li class="header--navigation-item {% if entry.url == page.url %}header--navigation-item--active{% endif %}">
+                <a class="header--link" href="{{ entry.url }}">{{ entry.title }}</a>
+              </li>
+            {%- endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
     <div class="width-container">
       <main>
+        <div class="grid-row">
+          <header class="page--header page--header--loop">
+            <div class="grid-column-full">
+              <h1 class="page--heading">{{ title }}</h1>
+            </div>
+          </header>
+        </div>
         {{ content | safe }}
       </main>
     </div>
+    <footer class="footer" role="contentinfo">
+      <div class="width-container">
+        <div class="grid-row">
+          <div class="grid-column-one-third">
+            <h2 class="footer--wordmark">a:gender</h2>
+          </div>
+          <div class="grid-column-one-third">
+            <h2 class="footer--heading">Related links</h2>
+            <ul class="footer--list">
+              <li class="footer--list-item">
+                <a class="footer--link" href="/join-us" title="Join a:gender as a member">
+                  Become a member
+                </a>
+              </li>
+              <li class="footer--list-item">
+                <a class="footer--link" href="/contact-us" title="Get our contact details">
+                  Contact us
+                </a>
+              </li>
+              <li class="footer--list-item">
+                <a class="footer--link" href="/team" title="Find out about our team">
+                  Our team
+                </a>
+              </li>
+              <li class="footer--list-item">
+                <a class="footer--link" href="/privacy-notice" title="Read our data and privacy policy">
+                  Your data
+                </a>
+              </li>
+              <li class="footer--list-item">
+                <a class="footer--link" href="/archives" title="View archived news posts">
+                  Archived posts
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid-column-one-third">
+            <h2 class="footer--heading">Social media</h2>
+            ADD LATER
+          </div>
+        </div>
+        <hr class="footer--section-break">
+        <div class="footer--meta">
+          <div class="footer--meta-item">
+            <p>Website created by <a href="https:////www.engiqueer.net" title="Visit Joe Robert's website (Opens in new window)" target="_blank" rel="noopener noreferrer">Joe Roberts</a>.</p>
+          </div>
+          <div class="footer--meta-item">
+            <p>All content is released under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" title="Read more about the Open Government License. (Opens in new window)" target="_blank">Open Government License</a> unless otherwise stated. Please attribute our work.</p>
+          </div>
+          <div class="footer--meta-item">
+            <p>Based upon the <a href="https://www.civilservice.lgbt/">Civil Service LGBT+ Network</a> website, please don't sue us!</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

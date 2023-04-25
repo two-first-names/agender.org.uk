@@ -1,6 +1,8 @@
-const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
   return {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
