@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: For our members
 eleventyNavigation:
   key: For our members

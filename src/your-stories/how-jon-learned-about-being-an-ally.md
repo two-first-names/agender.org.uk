@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: How Jon learned about being an ally
 eleventyNavigation:
   key: How Jon learned about being an ally

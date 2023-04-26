@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: Pronouns
 eleventyNavigation:
   key: Pronouns

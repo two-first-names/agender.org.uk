@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: Terminology
 eleventyNavigation:
   key: Terminology

@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: Membership Guidelines
 eleventyNavigation:
   key: Membership Guidelines

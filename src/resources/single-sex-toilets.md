@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: Toilet Facilities in the Workplace
 eleventyNavigation:
   key: Toilet Facilities in the Workplace

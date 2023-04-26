@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: Your Rights
 eleventyNavigation:
   key: Your Rights

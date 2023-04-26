@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: Your Stories
 eleventyNavigation:
   key: Your Stories

@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: Our Aims
 eleventyNavigation:
   key: Our Aims

@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: Resources
 eleventyNavigation:
   key: Resources

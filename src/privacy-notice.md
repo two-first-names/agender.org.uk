@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: Privacy Notice
 eleventyNavigation:
   key: Privacy Notice

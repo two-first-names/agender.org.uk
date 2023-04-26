@@ -1,5 +1,5 @@
 ---
-layout: layouts/page
+layout: page
 title: What have we done so far?
 eleventyNavigation:
   key: Our Accomplishments

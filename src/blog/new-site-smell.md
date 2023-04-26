@@ -1,5 +1,5 @@
 ---
-layout: layouts/post
+layout: post
 title: New Site Smell!
 date: 2023-04-26T09:47:00Z
 author: 
