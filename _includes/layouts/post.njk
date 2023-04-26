@@ -1,0 +1,48 @@
+{% extends 'layouts/base.njk' %}
+
+{%- macro authorName(author) -%}
+  {%- if author.email -%}
+    <a href="mailto:{{ author.email }}">
+  {%- endif -%}
+    {{- author.name or author -}}
+  {%- if author.email -%}
+    </a>
+  {%- endif -%}
+  {% if author.pronouns %}
+    ({{ author.pronouns }})
+  {%- endif -%}
+{% endmacro -%}
+
+{% block content %}
+<div class="grid-row">
+  <header class="page--header page--header--loop">
+    <div class="grid-column-full">
+      <h1 class="page--heading">{{ title }}</h1>
+    </div>
+  </header>
+  <div class="grid-column-full">
+    <div class="page--meta-info">
+      <p>
+        <span>Written by {{ authorName(author) }}</span>
+        <span>on <time datetime="{{ date.toISOString() }}">{{ date | postDate }}</time></span>
+        {%- if modified -%}<span>, last modified on on <time datetime="{{ modified.toISOString() }}">{{ modified | postDate }}</time></span>{%- endif -%}
+        .
+      </p>
+    </div>
+  </div>
+  <div class="grid-column-two-thirds">
+    {%- if excerpt -%}
+    <div class="page--excerpt">
+      {{ excerpt }}
+    </div>
+    {%- endif -%}
+  </div>
+</div>
+<div class="grid-row">
+  <div class="grid-column-full">
+    <div class="page--content">
+      {{ content | safe }}
+    </div>
+  </div>
+</div>
+{% endblock %}

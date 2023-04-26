@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: layouts/page
 title: Join Us
 eleventyNavigation:
   key: Join Us

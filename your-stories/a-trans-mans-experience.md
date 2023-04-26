@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: layouts/page
 title: A Trans Man's Experience
 eleventyNavigation:
   key: A Trans Man's Experience

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: layouts/page
 title: How to make a difference
 eleventyNavigation:
   key: How to make a difference

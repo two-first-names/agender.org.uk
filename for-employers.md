@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: layouts/page
 title: For employers
 eleventyNavigation:
   key: For employers

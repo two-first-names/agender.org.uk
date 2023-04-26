@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: layouts/page
 title: Useful Links
 eleventyNavigation:
   key: Useful Links

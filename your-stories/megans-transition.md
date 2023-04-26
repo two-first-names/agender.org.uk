@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: layouts/page
 title: How support at work helped Megan's transition
 eleventyNavigation:
   key: Megan's Transition

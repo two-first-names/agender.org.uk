@@ -1,6 +1,6 @@
 ---
 homepage: true
-layout: page
+layout: layouts/page
 title: About Us
 ---
 We are a:gender, the support network for trans and intersex staff across Government.
