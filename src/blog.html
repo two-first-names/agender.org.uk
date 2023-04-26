@@ -1,0 +1,39 @@
+---
+layout: page
+title: Blog Posts
+eleventyNavigation:
+  key: Blog
+  order: 3
+---
+{%- macro authorName(author) -%}
+  {%- if author.email -%}
+    <a href="mailto:{{ author.email }}">
+  {%- endif -%}
+    {{- author.name or author -}}
+  {%- if author.email -%}
+    </a>
+  {%- endif -%}
+  {% if author.pronouns %}
+    ({{ author.pronouns }})
+  {%- endif -%}
+{% endmacro -%}
+
+<div class="grid-row">
+  <div class="grid-column-full">
+    <ul class="list--no-styles">
+      {%- for post in collections.blog | reverse -%}
+        <li>
+          <article>
+            <h2>
+              <a href="{{ post.url }}" title="{{post.data.title}}">
+                {{ post.data.title}}
+              </a>
+            </h2>
+            {%- if post.data.excerpt -%}<p>{{ post.data.excerpt }}</p>{%- endif -%}
+            <p>Written by {{ authorName(post.data.author) }} on <time datetime="{{ post.date | date }}">{{ post.date | date("d LLLL y") }}</time>.</p>
+          </article>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>

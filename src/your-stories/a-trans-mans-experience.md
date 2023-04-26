@@ -1,9 +1,6 @@
 ---
 layout: page
 title: A Trans Man's Experience
-eleventyNavigation:
-  key: A Trans Man's Experience
-  parent: Your Stories
 ---
 “My mum waited eight years to have a little girl and I was in constant battle with her from the age of four over appropriate toys, clothing and behaviour. My role models as a child were my brothers and dad as well as men in films and TV, such as Gregory Peck in To Kill a Mockingbird, the dad in Little House on the Prairie and Gene Kelly. (I should probably explain here that I was brought up very strictly Methodist and my TV viewing was limited). I also searched hungrily for children like me such as George from the Famous Five, Scout in To Kill a Mockingbird and any film with Jodie Foster in it.
 

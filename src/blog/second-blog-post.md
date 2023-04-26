@@ -1,5 +1,5 @@
 ---
-title: New Site Smell!
+title: Second Blog Post
 date: 2023-04-26T09:47:00Z
 author: 
   name: Joe Roberts

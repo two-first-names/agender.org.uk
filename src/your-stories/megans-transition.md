@@ -1,9 +1,6 @@
 ---
 layout: page
 title: How support at work helped Megan's transition
-eleventyNavigation:
-  key: Megan's Transition
-  parent: Your Stories
 ---
 “I wanted to share my experience of good practice in the Civil Service, as I feel it is a shining example of how an employer and its staff can embrace the diversity of a team member.
 

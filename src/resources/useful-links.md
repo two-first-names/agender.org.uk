@@ -1,10 +1,7 @@
 ---
 layout: page
 title: Useful Links
-eleventyNavigation:
-  key: Useful Links
-  parent: Resources
-  excerpt: The useful links section lists other organisations and campaigns that support trans and intersex people, and websites where you can find further information.
+excerpt: The useful links section lists other organisations and campaigns that support trans and intersex people, and websites where you can find further information.
 ---
 Please [contact us](mailto:hello@agender.gov.uk) if you know an organisation you think should be added to the list.
 

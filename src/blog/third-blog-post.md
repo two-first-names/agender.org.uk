@@ -1,6 +1,6 @@
 ---
-title: New Site Smell!
-date: 2023-04-26T09:47:00Z
+title: Third Blog Post
+date: 2023-04-26T10:47:00Z
 author: 
   name: Joe Roberts
   pronouns: They/Them

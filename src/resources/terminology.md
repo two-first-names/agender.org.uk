@@ -1,10 +1,7 @@
 ---
 layout: page
 title: Terminology
-eleventyNavigation:
-  key: Terminology
-  parent: Resources
-  excerpt: The terminology section is designed to help you understand and talk about gender issues.
+excerpt: The terminology section is designed to help you understand and talk about gender issues.
 ---
 Gender is part of a person’s inherent and persistent understanding of who they are. This is distinct from the pressures in society to conform to established conventions for male or female behaviour and appearance (sometimes referred to as gender expression). The [Endocrine Society’s position statement](https://www.endocrine.org/advocacy/position-statements/transgender-health) of 2020 states, "scientific evidence has emerged demonstrating a durable biological element underlying gender".
 

@@ -1,10 +1,7 @@
 ---
 layout: page
 title: Pronouns
-eleventyNavigation:
-  key: Pronouns
-  parent: Resources
-  excerpt: Our pronouns position paper helps you understand how adding pronouns to your signature helps foster an inclusive working environment.
+excerpt: Our pronouns position paper helps you understand how adding pronouns to your signature helps foster an inclusive working environment.
 ---
 Adding personal pronouns to signatures and profiles
 ---------------------------------------------------

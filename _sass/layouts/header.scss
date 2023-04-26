@@ -101,9 +101,9 @@
 	@include media-query ($from: desktop) {
 		margin-bottom: 0 !important;
 		float: right;
-		text-align: right;
+		text-align: left;
 		vertical-align: top;
-		max-width: calc(100% - 300px);
+		//max-width: calc(100% - 300px);
 	}
 }
 .header--logotype--text {
@@ -267,7 +267,6 @@
 		width: 24%;
 	}
 	@include media-query ($from: desktop) {
-		width: 30%;
 	}
 
 	a {
