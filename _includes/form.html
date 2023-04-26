@@ -1,30 +1,45 @@
 <form>
-  <label class="input-label label-sm" for="first-name">First Name</label>
-  <input class="input" id="first-name" name="first-name" type="text" />
+  <fieldset class="fieldset fieldset-row" aria-describedby="fieldset-legend--personal-details">
+    <legend id="fieldset-legend--personal-details">Your Personal Details</legend>
+    <label class="input-label label-sm" for="first-name">First Name</label>
+    <input class="input" id="first-name" name="first-name" type="text" />
 
-  <label class="input-label label-sm" for="last-name">Last Name</label>
-  <input class="input" id="last-name" name="last-name" type="text" />
+    <label class="input-label label-sm" for="last-name">Last Name</label>
+    <input class="input" id="last-name" name="last-name" type="text" />
 
-  <label class="input-label label-sm" for="email">Work Email</label>
-  <input class="input" id="email" name="email" type="text" autocomplete="email" />
+    <label class="input-label label-sm" for="email">Work Email</label>
+    <input class="input" id="email" name="email" type="text" autocomplete="email" />
 
-  <label class="input-label label-sm" for="organisation">Organisation</label>
-  <input class="input" id="organisation" name="organisation" type="text" />
+    <label class="input-label label-sm" for="organisation">Organisation</label>
+    <input class="input" id="organisation" name="organisation" type="text" />
 
-  <label class="input-label label-sm" for="location">Location</label>
-  <input class="input" id="location" name="location" type="text" />
+    <label class="input-label label-sm" for="location">Location</label>
+    <input class="input" id="location" name="location" type="text" />
+  </fieldset>
 
-  <label class="input-label label-sm" for="membership-type">Membership Type</label>
-  <select id="membership-type" name="membership-type">
-    <option value="ally">Ally/Friend</option>
-    <option value="full">Full Membership</option>
-  </select>
+  <fieldset class="fieldset fieldset-row" aria-describedby="fieldset-legend--your-membership-type">
+    <legend id="fieldset-legend--your-membership-type">Your Membership Type</legend>
+    <p class="hint">
+      Full Member: Any staff member who is trans or intersex, where trans and intersex are defined in the widest sense.
+    </p>
+    <p class="hint">
+      Ally/Friend: Any staff member who wishes to support or help deliver the aims and objectives of a:gender.
+    </p>
+    <div class="radios">
+      <div class="radios--item">
+        <input id="membership-type--full" class="radios--input" name="membership-type" type="radio" value="full-membership">
+        <label class="radios--label" for="membership-type--full">Full Membership</label>
+      </div>
+    </div>
+    <div class="radios">
+      <div class="radios--item">
+        <input id="membership-type--ally" class="radios--input" name="membership-type" type="radio" value="ally-friend">
+        <label class="radios--label" for="membership-type--ally">Ally/Friend Membership</label>
+      </div>
+    </div>
+  </fieldset>
 
-  *Full Member*: Any staff member who is trans or intersex, where trans and intersex are defined in the widest sense.
-
-  *Ally/Friend*: Any staff member who wishes to support or help deliver the aims and objectives of a:gender.
-
-  By clicking 'Submit' you consent to our [Privacy Notice](/privacy-notice) and receiving  email updates from a:gender.
+  By clicking 'Submit' you consent to our <a href="/privacy-notice">Privacy Notice</a>and receiving email updates from a:gender.
   
   <input class="button button--primary" type="submit" value="Submit" />
 </form>
