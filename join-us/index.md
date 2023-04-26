@@ -20,7 +20,7 @@ By signing up you consent to our [Privacy Notice](/privacy-notice), to abide by 
 
 Please provide your Civil Service work email address, we cannot accept personal email addresses for membership.
 
-You can withdraw your membership at any time by [contacting a:gender](mailto:membership@agender.gov.uk).
+You can withdraw your membership at any time by [contacting a:gender](mailto:membership@agender.org.uk).
 
 ## Membership Form
 

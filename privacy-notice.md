@@ -35,7 +35,7 @@ We believe you should always know what data we collect from you and how we use i
 
 Your personal data can be accessed by the a:gender Business Manager, who is also the a:gender Data Protection Officer, and members of the a:gender Executive Committee where a clear purpose has been determined. ~~A user name and password are needed to access data saved on Wix.com; passwords are changed regularly for security purposes.~~
 
-To contact the a:gender Data Protection Officer please email dpo@agender.gov.uk.
+To contact the a:gender Data Protection Officer please email dpo@agender.org.uk.
 
 ## Is your personal data shared with anyone else?
 
@@ -43,7 +43,7 @@ We will not share your data with any other person or organisation without first 
 ​
 ## How can you cancel your membership or notify us of any changes to contact details?
 
-You can email membership@agender.gov.uk to request cancellation of your membership and to have your data removed from ~~the Wix.com servers and~~ any other locations it is stored. We will confirm by email that we have deleted all of your personal data. To notify us of any changes to your membership details please contact us via the same email address.
+You can email membership@agender.org.uk to request cancellation of your membership and to have your data removed from ~~the Wix.com servers and~~ any other locations it is stored. We will confirm by email that we have deleted all of your personal data. To notify us of any changes to your membership details please contact us via the same email address.
 
 ~~Note that you cannot contact Wix.com directly ask for your information to be removed from their servers, you will need to contact a:gender directly as the Data Controller (see the Wix.com Privacy Notice Section 6 for more details).~~
 ​
