@@ -10,7 +10,7 @@
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
-    "pages:eleventy": "env NODE_ENV=production eleventy --pathprefix 'agender.org.uk'",
+    "pages:eleventy": "env NODE_ENV=production eleventy",
     "pages:sass": "sass _sass/all.scss _site/css/all.css",
     "pages": "npm-run-all pages:*"
   },
