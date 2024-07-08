@@ -25,15 +25,13 @@ We believe you should always know what data we collect from you and how we use i
 
 ## Where is your personal data is held?
 
-*Site is no longer hosted on Wix, rewrite.*
+a:gender uses GitHub Pages to host the website, and Google to store data. The membership form is completed on Google's servers, a:gender is the Data Control and Google is the Data Processor.
 
-~~a:gender uses Wix.com Ltd to host our website. Membership forms completed on the website are held on Wix.com secure servers. Wix.com treat this as ‘Users-of-users Personal Information’, with a:gender as the Data Controller and Wix.com as a Data Processor (see the Wix.com Privacy Notice Section 6 for more details).~~
-
-~~Where needed, members of the a:gender Executive Committee may download data held on Wix.com and store it on secure servers or cloud services managed by the Home Office, HMRC, or DWP. This will also be the storage location for membership data when a paper form has been completed and then digitised, with the paper form being destroyed afterwards. a:gender use data minimisation practices to ensure only the data that is needed is stored in any given location, for example personal identifiers such as names and email addresses are not required for statistical purposes so they are removed from these datasets.~~
+Where needed, members of the a:gender Executive Committee may download data held on Google and store it on secure servers or cloud services managed by His Majesty's Government. a:gender use data minimisation practices to ensure only the data that is needed is stored in any given location, for example personal identifiers such as names and email addresses are not required for statistical purposes so they are removed from these datasets.
 
 ## Who can access your personal data?
 
-Your personal data can be accessed by the a:gender Business Manager, who is also the a:gender Data Protection Officer, and members of the a:gender Executive Committee where a clear purpose has been determined. ~~A user name and password are needed to access data saved on Wix.com; passwords are changed regularly for security purposes.~~
+Your data can be accessed by the a:gender Chair, Secretary and Membership Officer, and members of the a:gender Executive Committee where a clear purpose has been determined. A username, password and two-step verification are needed to access data saved on Google; passwords are changed regularly for security purposes.
 
 To contact the a:gender Data Protection Officer please email dpo@agender.org.uk.
 
@@ -43,9 +41,9 @@ We will not share your data with any other person or organisation without first 
 ​
 ## How can you cancel your membership or notify us of any changes to contact details?
 
-You can email membership@agender.org.uk to request cancellation of your membership and to have your data removed from ~~the Wix.com servers and~~ any other locations it is stored. We will confirm by email that we have deleted all of your personal data. To notify us of any changes to your membership details please contact us via the same email address.
+You can email membership@agender.org.uk to request membership cancellation and to have your data removed from Google and any other locations where it is stored. We will confirm by email that we have deleted your data. To notify us of any changes to your membership details, contact us with the same email address.
 
-~~Note that you cannot contact Wix.com directly ask for your information to be removed from their servers, you will need to contact a:gender directly as the Data Controller (see the Wix.com Privacy Notice Section 6 for more details).~~
+Note that you cannot contact Google directly to ask for your information to be removed from their servers, you will need to contact a:gender directly as the Data Controller.
 ​
 ## Your rights under GDPR
 
