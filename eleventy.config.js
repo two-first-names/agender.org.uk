@@ -7,6 +7,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('date', require('./lib/filters/date.js'));
 
+  eleventyConfig.addPassthroughCopy("{,!(_site)/**/}*.pdf");
+  eleventyConfig.addPassthroughCopy("{,!(_site)/**/}*.docx");
+
   return {
     dir: {
       input: 'src',

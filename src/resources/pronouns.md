@@ -3,8 +3,7 @@ layout: page
 title: Pronouns
 excerpt: Our pronouns position paper helps you understand how adding pronouns to your signature helps foster an inclusive working environment.
 ---
-Adding personal pronouns to signatures and profiles
----------------------------------------------------
+## Adding personal pronouns to signatures and profiles
 
 ### 21 February 2022
 
