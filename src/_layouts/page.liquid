@@ -1,5 +1,6 @@
-{% extends 'base.njk' %}
-{% block content %}
+---
+layout: base.liquid
+---
 <div class="grid-row">
   <header class="page--header page--header--loop">
     <div class="grid-column-full">
@@ -7,5 +8,4 @@
     </div>
   </header>
 </div>
-{{ content | safe }}
-{% endblock %}
+{{ content }}

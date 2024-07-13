@@ -1,5 +1,6 @@
-{% extends 'base.njk' %}
-
+---
+layout: base.liquid
+---
 {%- macro authorName(author) -%}
   {%- if author.email -%}
     <a href="mailto:{{ author.email }}">

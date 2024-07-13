@@ -9,6 +9,14 @@
   <body>
     <header class="header">
       <div class="header--container width-container">
+        <div class="header--content">
+          <p>
+            Welcome to the new a:gender website, we are still under construction.
+            The old website is available on the Internet Archive.
+          </p>
+        </div>
+      </div>
+      <div class="header--container width-container">
         <div class="header--logo">
           <a class="header--logotype--link" href="/">
             <span class="header--logotype--text">a:gender</span>
@@ -18,8 +26,8 @@
       </div>
       <div class="header--container width-container">
         <div class="header--content">
-          <nav>
-            {% set navPages = collections.all | eleventyNavigation %}
+          <nav id="navMenu">
+            {% assign navPages = collections.all | eleventyNavigation %}
             <ul class="header--navigation">
             {%- for entry in navPages %}
               <li class="header--navigation-item {% if entry.url == page.url %}header--navigation-item--active{% endif %}">
@@ -33,8 +41,7 @@
     </header>
     <div class="width-container">
       <main>
-        {% block content %}
-        {% endblock %}
+        {{ content }}
       </main>
     </div>
     <footer class="footer" role="contentinfo">
@@ -44,7 +51,7 @@
             <h2 class="footer--wordmark">a:gender</h2>
           </div>
           <div class="grid-column-one-third">
-            <h2 class="footer--heading">Related links</h2>
+            <h2 class="footer--heading">Useful links</h2>
             <ul class="footer--list">
               <li class="footer--list-item">
                 <a class="footer--link" href="/join-us" title="Join a:gender as a member">
@@ -85,6 +92,9 @@
           </div>
           <div class="footer--meta-item">
             <p>All content is released under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" title="Read more about the Open Government License. (Opens in new window)" target="_blank">Open Government License</a> unless otherwise stated. You can adapt and share our work, but please attribute it to us. 😊</p>
+          </div>
+          <div class="footer--meta-item">
+            <p>Inspired by and adapted from the <a href="https://www.civilservice.lgbt/">Civil Service LGBT website</a>, with lots of love.</p>
           </div>
           <div class="footer--meta-item">
             <p>This website is being actively developed. Follow along or contribute at <a href="https://github.com/two-first-names/agender.org.uk">https://github.com/two-first-names/agender.org.uk</a></p>

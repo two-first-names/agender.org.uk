@@ -7,9 +7,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('date', require('./lib/filters/date.js'));
 
-  eleventyConfig.addPassthroughCopy("{,!(_site)/**/}*.pdf");
-  eleventyConfig.addPassthroughCopy("{,!(_site)/**/}*.docx");
+  eleventyConfig.addPassthroughCopy("src/**/*.pdf");
+  eleventyConfig.addPassthroughCopy("src/**/*.docx");
 
+  eleventyConfig.addPassthroughCopy({"node_modules/govuk-frontend/dist/govuk/assets": "assets"});
   return {
     dir: {
       input: 'src',
