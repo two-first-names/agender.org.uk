@@ -14,7 +14,7 @@ Together we can remove barriers and become agents for positive change. Our core 
 - *Listen*: please, hear our stories and respect our lives
 - *Learn*: understand the diversity of trans identities and intersex variations
 - *Speak*: we need you as an ally to help challenge transphobia
-​​​
+
 ## What you can do
 Here are some of the ways our allies help us: 
 - Spread the word about a:gender

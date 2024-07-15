@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 99
 ---
 a:gender is the support network for Trans and Intersex staff across Government. We provide support to Trans & Intersex staff as well as managers, HR, policy teams, and parents and guardians of Trans & Intersex people.
-​
+
 ## Purpose for a:gender in holding your personal data
 
 The a:gender network holds information about members of the network. We use your personal information to notify you of a:gender related activities, canvas your views, distribute our newsletter, and alert you to events or information that may be of interest to you in your capacity as a member. We use disclosure control measures to ensure anonymity of our members is maintained when engaging through mailing lists. Your personal data is not revealed to any other member or other individual.
@@ -38,13 +38,13 @@ To contact the a:gender Data Protection Officer please email dpo@agender.org.uk.
 ## Is your personal data shared with anyone else?
 
 We will not share your data with any other person or organisation without first obtaining your consent.
-​
+
 ## How can you cancel your membership or notify us of any changes to contact details?
 
 You can email membership@agender.org.uk to request membership cancellation and to have your data removed from Google and any other locations where it is stored. We will confirm by email that we have deleted your data. To notify us of any changes to your membership details, contact us with the same email address.
 
 Note that you cannot contact Google directly to ask for your information to be removed from their servers, you will need to contact a:gender directly as the Data Controller.
-​
+
 ## Your rights under GDPR
 
 You have the following rights under the GDPR and can exercise them at any time:

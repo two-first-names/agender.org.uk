@@ -11,7 +11,7 @@ We aim to support trans and intersex staff  in the Civil Service, through:
 
 - outreach,
 - peer support, and
-- empowerment.​
+- empowerment.
 
 ## For managers and teams
 

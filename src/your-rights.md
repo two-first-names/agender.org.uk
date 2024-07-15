@@ -59,7 +59,7 @@ Talent Action Plan
 
 The Talent Action Plan is designed to remove barriers to success for talented civil servants from underrepresented groups by understanding the issues they face and creating solutions.
 
-The under-represented groups are those: 
+The under-represented groups are those:
 
 *   declaring a Black, Asian or Minority-Ethnic (BAME) background
     
