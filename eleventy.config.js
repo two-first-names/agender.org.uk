@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('date', require('./_lib/filters/date.js'));
 
   eleventyConfig.addPassthroughCopy("assets/*");
+  eleventyConfig.addPassthroughCopy('robots.txt')
 
   return {
     dir: {
