@@ -12,7 +12,7 @@
     "build": "npm-run-all build:*",
     "pages:eleventy": "env NODE_ENV=production eleventy",
     "pages:sass": "sass _sass/all.scss assets/all.css",
-    "pages": "npm-run-all pages:*"
+    "pages": "npm-run-all pages:sass pages:eleventy"
   },
   "author": "",
   "license": "MIT",
