@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "sass --watch _sass/all.scss _site/css/all.css",
-    "build:sass": "sass _sass/all.scss _site/css/all.css",
+    "watch:sass": "sass --watch _sass/all.scss assets/all.css",
+    "build:sass": "sass _sass/all.scss assets/all.css",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
     "pages:eleventy": "env NODE_ENV=production eleventy",
-    "pages:sass": "sass _sass/all.scss _site/css/all.css",
+    "pages:sass": "sass _sass/all.scss assets/all.css",
     "pages": "npm-run-all pages:*"
   },
   "author": "",

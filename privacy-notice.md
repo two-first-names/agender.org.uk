@@ -1,9 +1,6 @@
 ---
 layout: page
 title: Privacy Notice
-eleventyNavigation:
-  key: Privacy Notice
-  order: 99
 ---
 a:gender is the support network for Trans and Intersex staff across Government. We provide support to Trans & Intersex staff as well as managers, HR, policy teams, and parents and guardians of Trans & Intersex people.
 
