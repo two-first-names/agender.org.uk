@@ -17,7 +17,7 @@ Allies are friends, relatives and colleagues who support our aims and objectives
 Note that some of the events we organise may be for full members only. [Read more about the ways we support our members](/for-our-members).
 Allies can still show support, [read more about how you can make a difference in the community](/join-us/how-to-make-a-difference).
 
-By signing up you consent to our [Privacy Notice](/privacy-notice.md), to abide by our [member guidelines](/join-us/member-guidelines), and to being added to our membership emailing list.
+By signing up you consent to our [Privacy Notice](/privacy-notice), to abide by our [member guidelines](/join-us/member-guidelines), and to being added to our membership emailing list.
 
 Please provide your Civil Service work email address, we cannot accept personal email addresses for membership.
 
