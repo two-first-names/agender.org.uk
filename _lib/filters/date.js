@@ -1,4 +1,4 @@
-const { DateTime } = require('luxon')
+import { DateTime } from 'luxon'
 
 /**
  * Format a data using tokens
@@ -9,7 +9,7 @@ const { DateTime } = require('luxon')
  * @param {string} [format] - Optional token-based formatting
  * @return {string} - Formatted date
  */
-module.exports = (string, format) => {
+export default (string, format) => {
   // Enable special `now` value
   const dateObject = (string === 'now') ? DateTime.local().toJSDate() : string
 
