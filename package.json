@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "watch:sass": "sass --watch _sass/all.scss assets/all.css",
     "build:sass": "sass _sass/all.scss assets/all.css",
@@ -17,7 +18,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "govuk-frontend": "^5.4.1",
     "npm-run-all": "^4.1.5",
