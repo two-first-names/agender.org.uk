@@ -5,8 +5,6 @@ eleventyNavigation:
   key: For employers
   order: 5
 ---
-
-{{ page | json }}
 We help Civil Service departments and agencies provide a safe and welcoming environment for trans and intersex colleagues by:
 - creating and delivering *workplace training and awareness sessions* across the Civil Service
 - provide *expert advice, guidance and support* to staff and policy owners across the Civil Service to develop their trans and intersex inclusive policy
