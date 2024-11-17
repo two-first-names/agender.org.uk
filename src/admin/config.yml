@@ -1,0 +1,72 @@
+publish_mode: editorial_workflow
+site_url: https://agender.org.uk
+
+backend:
+  name: github
+  repo: two-first-names/agender.org.uk
+  branch: main
+  base_url: https://decap-proxy.engiqueer.net
+  preview_context: deployment/cloudflare-pages
+
+media_folder: src/assets
+public_folder: /assets
+
+collections:
+- name: page
+  label: Pages
+  label_singular: Page
+  folder: src/pages
+  create: true
+  preview_path: '{{ slug }}'
+  nested:
+    depth: 100
+  fields:
+  - label: Layout
+    name: layout
+    widget: hidden
+    default: post
+  - label: Title
+    name: title
+    widget: string
+  - label: Content
+    name: body
+    widget: markdown
+- name: resource
+  label: Resources
+  label_singular: Resource
+  folder: src/resources
+  create: true
+  preview_path: 'resources/{{ slug }}'
+  fields:
+  - label: Layout
+    name: layout
+    widget: hidden
+    default: post
+  - label: Title
+    name: title
+    widget: string
+  - label: URL
+    name: url
+    required: false
+    widget: string
+    hint: Set a URL for non-text resources (i.e. external or assets)
+  - label: Content
+    name: body
+    widget: markdown
+- name: your-stories
+  label: Stories
+  label_singular: Story
+  folder: src/your-stories
+  create: true
+  preview_path: 'your-stories/{{ slug }}'
+  fields:
+  - label: Layout
+    name: layout
+    widget: hidden
+    default: post
+  - label: Title
+    name: title
+    widget: string
+  - label: Content
+    name: body
+    widget: markdown
