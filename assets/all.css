@@ -739,7 +739,7 @@ a:focus {
   border: 0;
 }
 .button:hover {
-  background-color: #7a0043;
+  background-color: rgb(122, 0, 66.9942196532);
 }
 .button:active {
   top: 2px;
@@ -819,13 +819,13 @@ button[disabled]:active {
 
 .button--secondary {
   background-color: #DEE0E2;
-  box-shadow: 0 2px 0 #727a82;
+  box-shadow: 0 2px 0 rgb(114.1290322581, 122, 129.8709677419);
 }
 .button--secondary, .button--secondary:link, .button--secondary:visited, .button--secondary:active, .button--secondary:hover {
   color: #0B0C0C;
 }
 .button--secondary:hover {
-  background-color: #c3c7ca;
+  background-color: rgb(194.8548387097, 198.5, 202.1451612903);
 }
 .button--secondary:hover[disabled] {
   background-color: #DEE0E2;
@@ -839,7 +839,7 @@ button[disabled]:active {
   color: #ffffff;
 }
 .button--warning:hover {
-  background-color: #80030b;
+  background-color: rgb(127.6266094421, 3.3733905579, 10.6824034335);
 }
 .button--warning:hover[disabled] {
   background-color: #E30613;
@@ -895,7 +895,7 @@ button[disabled]:active {
   color: #ffffff;
 }
 .button--action:hover {
-  background-color: #005226;
+  background-color: rgb(0, 82, 38.2255639098);
 }
 .button--action:hover[disabled] {
   background-color: #00853E;
@@ -934,7 +934,7 @@ button[disabled]:active {
   color: #ffffff;
 }
 .button--action--progress:hover {
-  background-color: #7a0043;
+  background-color: rgb(122, 0, 66.9942196532);
 }
 .button--action--progress:hover[disabled] {
   background-color: #AD005F;
@@ -1055,7 +1055,7 @@ button[disabled]:active {
   border: 0;
 }
 .button--toggle:hover {
-  background-color: #7a0043;
+  background-color: rgb(122, 0, 66.9942196532);
 }
 .button--toggle:active {
   top: 2px;

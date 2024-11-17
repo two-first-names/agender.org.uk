@@ -1,0 +1,18 @@
+---
+layout: page.liquid
+---
+{{content}}
+
+{%- for post in collections.resources -%}
+  <h2>
+    {% if post.data.url %}
+      <a href="{{ post.data.url }}">
+    {%else%}
+      <a href="{{ post.url}}">
+    {%endif%}
+        {{ post.data.title}}
+      </a>
+  </h2>
+
+  <p>{{ post.data.excerpt}}</p>
+{%- endfor -%}

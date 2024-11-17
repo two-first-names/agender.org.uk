@@ -24,5 +24,5 @@ test/stubs-layout-cache/_includes/*.js
 
 .DS_Store
 .sass-cache
-assets/all.css.map
-assets/all.css
+src/assets/all.css.map
+src/assets/all.css
