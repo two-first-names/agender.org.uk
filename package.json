@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "watch:sass": "sass --watch _sass/all.scss assets/all.css",
-    "build:sass": "sass _sass/all.scss assets/all.css",
+    "watch:sass": "sass --watch _sass/all.scss src/assets/all.css",
+    "build:sass": "sass _sass/all.scss src/assets/all.css",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
